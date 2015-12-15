@@ -21,7 +21,7 @@ module.exports.connectorLock = {
   // of the local authentication method with password reset tokens disabled.
   authMethod: [
     {
-      name:"connectorLock-local-auth",
+      name:"connectorLock-app-auth",
       passwordReset:{
         tokens: false,
         mail: {

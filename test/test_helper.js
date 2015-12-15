@@ -9,7 +9,7 @@ var pathStub = {
   }
 }
 
-exports.connectorLock_local = proxyquire.noCallThru().load('../lib/connectorLock-local-auth', 
+exports.connectorLock_local = proxyquire.noCallThru().load('../lib/connectorLock-app-auth', 
   { 
     'path': pathStub
   });

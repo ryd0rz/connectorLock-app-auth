@@ -1,5 +1,5 @@
 {
-  "name": "connectorLock-local-auth",
+  "name": "connectorLock-app-auth",
   "version": "0.0.6",
   "description": "local authentication for connectorLock",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/davidrivera/connectorLock-local-auth"
+    "url": "https://github.com/ryd0rz/connectorLock-app-auth"
   },
   "keywords": [
     "connectorLock",
@@ -33,18 +33,18 @@
     "jwt-simple": "~0.3.0",
     "node-uuid": "~1.4.2"
   },
-  "author": "David Rivera <david.r.rivera193@gmail.com>",
+  "author": "Alex Merrifield <amerrifi05@gmail.com>",
   "contributors": [
     {
-      "name": "David Rivera",
-      "email": "david.r.rivera193@gmail.com"
+      "name": "Alex Merrifield",
+      "email": "amerrifi05@gmail.com"
     }
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/davidrivera/connectorLock-local-auth/issues"
+    "url": "https://github.com/ryd0rz/connectorLock-app-auth/issues"
   },
-  "homepage": "https://github.com/davidrivera/connectorLock-local-auth",
+  "homepage": "https://github.com/ryd0rz/connectorLock-app-auth",
   "preferGlobal": false,
   "engines": {
     "node": ">=0.10"
